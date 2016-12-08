@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="3">
+
+  <testsuite name="npmWebTest"
+    errors="1" failures="0" hostname="" id="" package="npmWebTest" skipped="2"
+    tests="3" time="0.01300" timestamp="Fri, 18 Nov 2016 22:58:02 GMT">
+  
+    <testcase name="npm can search for chance" time="0.01300" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Npm Web Test / npm can search for chance]:
+
+  TypeError: client.page.npmSearchResults is not a function
+    at Object.npm can search for chance (/Users/davidferguson/Documents/Node-TEMP/tests/npmWebTest.js:9:42)
+    at Module.call (/Users/davidferguson/Documents/Node-TEMP/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/davidferguson/Documents/Node-TEMP/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/davidferguson/Documents/Node-TEMP/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/davidferguson/Documents/Node-TEMP/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/davidferguson/Documents/Node-TEMP/node_modules/q/q.js:796:13)
+    at /Users/davidferguson/Documents/Node-TEMP/node_modules/q/q.js:556:49
+    at runSingle (/Users/davidferguson/Documents/Node-TEMP/node_modules/q/q.js:137:13)
+    at flush (/Users/davidferguson/Documents/Node-TEMP/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="npm can search for nightwatch">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="npm, negative test - searches for false value">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

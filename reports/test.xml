@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test"
+    errors="1" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="1" time="0.009000" timestamp="Wed, 16 Nov 2016 17:32:00 GMT">
+  
+    <testcase name="Sabre - test" time="0.009000" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Test / Sabre - test]:
+
+  TypeError: browser.url(...).waitForElementVisible(...).pause(...).assert.visible(...).assert.visible(...).pause(...).click(...).pause(...).assert.visible(...).pause(...).serValue is not a function
+    at Object.Sabre - test (/Users/davidferguson/Documents/Node-TEMP/tests/test.js:15:6)
+    at Module.call (/Users/davidferguson/Documents/Node-TEMP/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/davidferguson/Documents/Node-TEMP/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/davidferguson/Documents/Node-TEMP/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/davidferguson/Documents/Node-TEMP/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/davidferguson/Documents/Node-TEMP/node_modules/q/q.js:796:13)
+    at /Users/davidferguson/Documents/Node-TEMP/node_modules/q/q.js:556:49
+    at runSingle (/Users/davidferguson/Documents/Node-TEMP/node_modules/q/q.js:137:13)
+    at flush (/Users/davidferguson/Documents/Node-TEMP/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

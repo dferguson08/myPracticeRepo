@@ -1,0 +1,17 @@
+{
+  "name": "node_chance_name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch",
+    "test-tags": "./node_modules/.bin/nightwatch --tag single,agame,mozio",
+    "selenium:start": "java -jar selenium-server-standalone-3.0.1.jar"
+  },
+  "author": "David F",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.0.4",
+    "nightwatch": "^0.9.8"
+  }
+}
