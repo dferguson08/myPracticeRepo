@@ -5,9 +5,9 @@
 
   <testsuite name="npmWebTest"
     errors="0" failures="0" hostname="" id="" package="npmWebTest" skipped="0"
-    tests="3" time="15.02" timestamp="Thu, 08 Dec 2016 21:16:57 GMT">
+    tests="3" time="14.78" timestamp="Wed, 14 Dec 2016 19:28:26 GMT">
   
-    <testcase name="npm can search for chance" time="5.048" assertions="3">
+    <testcase name="npm can search for chance" time="4.855" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="npm can search for nightwatch" time="5.454" assertions="3">
+    <testcase name="npm can search for nightwatch" time="4.560" assertions="3">
 
     
 
@@ -25,7 +25,7 @@
     
     </testcase>
   
-    <testcase name="npm, negative test - searches for false value" time="4.518" assertions="3">
+    <testcase name="npm, negative test - searches for false value" time="5.369" assertions="3">
 
     
 

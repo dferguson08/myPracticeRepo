@@ -5,9 +5,9 @@
 
   <testsuite name="agamePong"
     errors="0" failures="0" hostname="" id="" package="agamePong" skipped="0"
-    tests="1" time="17.69" timestamp="Thu, 08 Dec 2016 21:16:39 GMT">
+    tests="1" time="14.71" timestamp="Wed, 14 Dec 2016 19:28:11 GMT">
   
-    <testcase name="Test agame search and return" time="17.69" assertions="2">
+    <testcase name="Test agame search and return" time="14.71" assertions="2">
 
     
 
